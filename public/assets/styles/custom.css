@@ -1,0 +1,58 @@
+.avatar__box {
+  border-radius: 50px;
+  overflow: hidden;
+}
+.content {
+  overflow-y: scroll;
+}
+.content::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 5px;
+}
+/* Track */
+.content::-webkit-scrollbar-track {
+  background: #ececec2d;
+  border-radius: 5px;
+}
+/* Handle */
+.content::-webkit-scrollbar-thumb,
+.content::-webkit-scrollbar-thumb {
+  background: rgba(143, 143, 143, 0.438);
+  border-radius: 5px;
+}
+/* Handle on hover */
+.content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 5px;
+}
+.sidebar__user-name {
+  font-size: 18px;
+}
+.resume_table tr td {
+  padding: 8px 0px;
+}
+.resume_table tr td:nth-child(1) {
+  padding-right: 30px;
+}
+.resume_table tr td:nth-child(3) {
+  padding-left: 30px;
+}
+.gallery .img {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.gallery .img img {
+  height: 100%;
+  max-width: unset;
+}
+@media only screen and (max-width: 768px) {
+  .nav-wrap {
+    right: 0;
+  }
+}
